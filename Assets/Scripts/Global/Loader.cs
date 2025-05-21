@@ -11,6 +11,7 @@ using System.Collections;
             Loading=0,
             GamePlay=1,
             KhangScene=2,
+            TanScene=3,
         }
 
         public static Scene TargetScene;

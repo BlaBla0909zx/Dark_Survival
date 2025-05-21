@@ -34,6 +34,10 @@ using UnityEngine.SceneManagement;
             {
                 SceneHelper.StartSceneWithSavePrompt("Assets/Scenes/Loading.unity");
             }
+            if (GUILayout.Button(new GUIContent("TanScene")))
+            {
+                SceneHelper.StartSceneWithSavePrompt("Assets/Scenes/TanScene.unity");
+            }
             if (GUILayout.Button(new GUIContent("Gameplay")))
             {
                 SceneHelper.StartSceneWithSavePrompt("Assets/Scenes/GamePlay.unity");

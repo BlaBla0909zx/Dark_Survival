@@ -16,6 +16,6 @@
 
         private void LoadScene()
         {
-            Loader.Load(Loader.Scene.KhangScene);
+            Loader.Load(Loader.Scene.TanScene);
         }
     }
